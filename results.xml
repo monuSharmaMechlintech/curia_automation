@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="11.889989000000002">
+<testsuite name="curiaSystemsLogin.spec.ts" timestamp="2024-12-09T18:54:02.567Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.589" errors="0">
+<testcase name="Verify User Should Be SignIn Successfully With Valid Credentials" classname="curiaSystemsLogin.spec.ts" time="10.589">
+</testcase>
+</testsuite>
+</testsuites>
