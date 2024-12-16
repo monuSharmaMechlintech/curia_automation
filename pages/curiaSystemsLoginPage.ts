@@ -53,9 +53,11 @@ export default class curiaSystemsLoginPage extends Base {
         await this.signInButton.click();
     }
 
-    async signIn(email: string, password: string): Promise<void> {
+    async signIn(municipality: string, email: string, password: string): Promise<void> {
+        await this.selectValidMunicipalityName(municipality)
         await this.enterUsername(email);
         await this.enterPassword(password);
         await this.clickOnSignInButton();
-    }  
+    }         
+    
 }
